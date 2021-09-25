@@ -32,13 +32,13 @@ Just clone the repository and run `npm start` to download the modules in the
 
 **On Linux or MAC**
 
-`$ git clone https://github.com/edwinokugbo/strapireact.git`
+`/$ git clone https://github.com/edwinokugbo/strapireact.git`
 
-`$ cd strapireact`
+`/$ cd strapireact`
 
-`$ npm install`
+`/strapireact$ npm install`
 
-`$ npm start`
+`/strapireact$ npm start`
 
 **On Windows**
 
