@@ -46,9 +46,9 @@ Just clone the repository and run `npm start` to download the modules in the
 
 `C:\YourWorkFolder>cd strapireact`
 
-`C:\YourWorkFolder>npm install`
+`C:\YourWorkFolder\strapireact>npm install`
 
-`C:\YourWorkFolder>npm start`
+`C:\YourWorkFolder\strapireact>npm start`
 
 ## Up coming features
 - **Light weight and fast custom hooks including**
