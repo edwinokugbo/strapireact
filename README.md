@@ -7,18 +7,18 @@ so that they can concentrate on their specific project ideas
 
 ## Available features
 
-- ***Home page***
-- ***About page***
-- ***Services page***
-- ***Blog with nice layout***
-- ***Contact Page***
-- ***Navigation bar with menus***
-- ***Search Input***
-- ***Changing background images***
-- ***Right sidebar with recent articles list***
-- ***Responsive layout***
-- ***nice mobile harmburger menu***
-- ***free sotkc images from pexel. Credits added as required***
+- *Home page*
+- *About page*
+- *Services page*
+- *Blog with nice layout*
+- *Contact Page*
+- *Navigation bar with menus*
+- *Search Input*
+- *Changing background images*
+- *Right sidebar with recent articles list*
+- *Responsive layout*
+- *nice mobile harmburger menu*
+- *free sotkc images from pexel. Credits added as required*
 
 ## Usage
 
