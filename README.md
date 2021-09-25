@@ -25,6 +25,16 @@ so that they can concentrate on their specific project ideas
 Just clone the repository and run `npm start` to download the modules in the 
 *package.json* file and start the app. Then modify as you wish. 
 
+### Commands
+
+`git clone https://github.com/edwinokugbo/strapireact.git`
+
+`cd strapireact`
+
+`npm install`
+
+`npm start`
+
 ## Credits
 
 **Author**: *Edwin Okugbo*
