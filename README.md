@@ -16,9 +16,12 @@ so that they can concentrate on their specific project ideas
 - *Search Input*
 - *Changing background images*
 - *Right sidebar with recent articles list*
-- *Responsive layout*
-- *nice mobile harmburger menu*
-- *free sotkc images from pexel. Credits added as required*
+- *Responsive layout with a mobile first approach*
+- *Nice mobile harmburger menu*
+- *Pure Javascript for some menu effects*
+- *A style.css file with predefined styles and documentation*
+    - Includes quick css classes for buttons, typography and labels, without the need for complex libraries
+- *Free stock images from pexel to get your started. You can replace with your own images. Credits added as required*
 
 ## Usage
 
@@ -46,6 +49,13 @@ Just clone the repository and run `npm start` to download the modules in the
 `C:\YourWorkFolder>npm install`
 
 `C:\YourWorkFolder>npm start`
+
+# Up coming features
+- *Light weight and fast custom hooks including*
+    - *useAuthenticated ass quick and easy authentication to your project*
+    - *useFetchData is a quick and easy way to get data from an API and use data in your app*
+    - *useStorage helps you manage your local storage to browser*
+- *Simple alert*
 
 ## Credits
 
