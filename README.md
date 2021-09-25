@@ -50,7 +50,7 @@ Just clone the repository and run `npm start` to download the modules in the
 
 `C:\YourWorkFolder>npm start`
 
-# Up coming features
+## Up coming features
 - *Light weight and fast custom hooks including*
     - *useAuthenticated ass quick and easy authentication to your project*
     - *useFetchData is a quick and easy way to get data from an API and use data in your app*
