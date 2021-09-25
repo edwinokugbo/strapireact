@@ -60,7 +60,6 @@ Just clone the repository and run `npm start` to download the modules in the
 - **Simple alert**
 - **Simple Admin dashboard with left side menu**
 - **More themes**
-- **More themes**
 
 ## Credits
 
