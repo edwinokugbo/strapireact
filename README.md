@@ -28,11 +28,13 @@ Just clone the repository and run `npm start` to download the modules in the
 ## Credits
 
 **Author**: *Edwin Okugbo*
+
 **Images**: *http://www.pexels.com*
 
 ## License
 
 This project is released under the GPL license. GPL 2.0
+
 You may freely use and modify
 
 
