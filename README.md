@@ -73,4 +73,10 @@ This project is released under the GPL license. GPL 2.0
 
 You may freely use and modify
 
+## Donate
+
+If you want to support me, you can donate to my patreon account [here](https://www.patreon.com/edwinokugbo)
+
+
+
 
