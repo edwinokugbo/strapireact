@@ -25,4 +25,14 @@ so that they can concentrate on their specific project ideas
 Just clone the repository and run `npm start` to download the modules in the 
 *package.json* file and start the app. Then modify as you wish. 
 
+## Credits
+
+**Author**: *Edwin Okugbo*
+**Images**: *http://www.pexels.com*
+
+## License
+
+This project is released under the GPL license. GPL 2.0
+You may freely use and modify
+
 
