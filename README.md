@@ -42,13 +42,13 @@ Just clone the repository and run `npm start` to download the modules in the
 
 **On Windows**
 
-`C:\YourWorkFolder>git clone https://github.com/edwinokugbo/strapireact.git`
+`C:\>git clone https://github.com/edwinokugbo/strapireact.git`
 
-`C:\YourWorkFolder>cd strapireact`
+`C:\>cd strapireact`
 
-`C:\YourWorkFolder\strapireact>npm install`
+`C:\strapireact>npm install`
 
-`C:\YourWorkFolder\strapireact>npm start`
+`C:\strapireact>npm start`
 
 ## Up coming features
 - **Light weight and fast custom hooks including**
