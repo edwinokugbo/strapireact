@@ -5,6 +5,8 @@ you a much more robust startup app for fast prototyping. The idea behind this pr
 is to help developers quickly start a new project with all the basic features in place
 so that they can concentrate on their specific project ideas
 
+***This is the easiest way to impress your boss on a new React project. :)***
+
 ## Available features
 
 - *Home page*
