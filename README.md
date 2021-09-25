@@ -58,6 +58,9 @@ Just clone the repository and run `npm start` to download the modules in the
     - *useFetchData is a quick and easy way to get data from an API and use the data in your app*
     - *useStorage helps you manage your local storage to browser*
 - **Simple alert**
+- **Simple Admin dashboard with left side menu**
+- **More themes**
+- **More themes**
 
 ## Credits
 
