@@ -27,6 +27,8 @@ Just clone the repository and run `npm start` to download the modules in the
 
 ### Commands
 
+**On Linux or MAC**
+
 `$ git clone https://github.com/edwinokugbo/strapireact.git`
 
 `$ cd strapireact`
@@ -34,6 +36,16 @@ Just clone the repository and run `npm start` to download the modules in the
 `$ npm install`
 
 `$ npm start`
+
+**On Windows**
+
+`C:\YourWorkFolder>git clone https://github.com/edwinokugbo/strapireact.git`
+
+`C:\YourWorkFolder>cd strapireact`
+
+`C:\YourWorkFolder>npm install`
+
+`C:\YourWorkFolder>npm start`
 
 ## Credits
 
