@@ -98,8 +98,8 @@ function Misce() {
                 <p className="box-200 bg-black center-vw white">Div Box 200x200</p>
             </div>
             <div className="misce-box">
-                <p className="misce-label">box-300 bg-red center-vw</p>
-                <p className="box-300 bg-red center-vw white">Div Box 300x300</p>
+                <p className="misce-label">box-300 bg-red center-vw shadow</p>
+                <p className="box-300 bg-red center-vw white shadow">Div Box 300x300</p>
             </div>
         </div>
             <div className="misce-box">
@@ -118,8 +118,8 @@ function Misce() {
                 <p className="circle-200 bg-red center-vw white">Div Circle 200x200</p>
             </div>
             <div className="misce-box">
-                <p className="misce-label">circle-300</p>
-                <p className="circle-300 bg-blue center-vw white">Div Circle 300x300</p>
+                <p className="misce-label">circle-300 bg-blue center-vw bold shadow</p>
+                <p className="circle-300 bg-blue center-vw white shadow">Div Circle 300x300</p>
             </div>
         </div>
             <div className="misce-box">

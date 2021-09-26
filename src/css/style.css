@@ -148,6 +148,9 @@ p {
     line-height: 1.5em;
     font-size: 100%;
 }
+hr {
+    border: 1px solid rgb(196, 192, 192, .3) !important;
+}
 .title {
     font-size: 1.8em;
     font-weight: bold;
@@ -713,9 +716,6 @@ label:hover {
 .right__sidebar > hr {
     width: 100%;
 }
-hr {
-    border: 1px solid rgb(196, 192, 192, .3) !important;
-}
 .right__sidebar > .highlight__rule {
     width: 30%;
     margin: 20px 0px;
@@ -762,10 +762,13 @@ hr {
 
 /* Decorations */
 .bold {
-    font-weight: bold;
+    font-weight: bold !important;
 }
 .center {
     text-align: center;
+}
+.shadow {
+    box-shadow: 2px 2px 2px 2px #888888;
 }
 .go-left {
     text-align: left;
