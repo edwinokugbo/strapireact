@@ -9,6 +9,7 @@ import Nav from './components/Nav';
 import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
+import Features from './components/Features';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
@@ -73,6 +74,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/features">
+            <Features />
           </Route>
           <Route path="/services">
             <Services />

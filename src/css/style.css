@@ -2,12 +2,33 @@
 :root {
     --whiteColor: #fff;
     --blackColor: #000;
+    --blackBorderColor: #4d4d4d;
+    --blackHoverColor: 	rgb(0, 0, 0, .4);
+    --greyColor: #ccc;
+    --greyBorderColor: #acacac;
     --blueColor: rgb(0, 86, 199);
-    --redColor: rgb(204, 21, 21);
-    --greenColor: #000;
-    --orangeColor: #000;
-    --pinkColor: #000;
-    --lbrownColor: #000;
+    --blueBorderColor: rgb(24, 111, 151);
+    --blueHoverColor: rgb(24, 111, 151, .4);
+    --redColor: rgb(208, 2, 27);
+    --redBorderColor: rgb(172, 3, 23);
+    --redHoverColor: rgb(172, 3, 23, .7);
+    --greenColor: #29b416;
+    --greenBorderColor: rgb(41, 141, 11);
+    --greenHoverColor: 	rgb(41, 141, 11, .4);
+    --orangeColor: 	rgb(233, 135, 6);
+    --orangeBorderColor: rgb(246, 145, 16);
+    --orangeHoverColor:	rgb(246, 145, 16, .4);
+    --pinkColor: rgb(255, 97, 231);
+    --pinkBorderColor: rgb(255, 46, 223);
+    --pinkHoverColor: rgb(255, 46, 223, .4);
+    --purpleColor: rgb(150, 51, 184);
+    --purpleBorderColor: rgb(186, 78, 222);
+    --purpleHoverColor:	rgb(186, 78, 222, .4);
+    --lbrownColor: rgb(229, 170, 112);
+    --lbrownBorderColor: rgb(168, 125, 83);
+    --lbrownHoverColor: rgb(229, 170, 112, .4);
+    --outlineColor: #ffffff;
+    --outlineBorderColor: #4d4d4d;
     --lightBGColor: rgb(233, 226, 216);
     --bgColor: rgb(223,212,195);
     --mdbgColor: rgb(199, 166, 118);
@@ -124,19 +145,21 @@ a {
     text-decoration: none;
 }
 p {
-    line-height: 2.0em;
+    line-height: 1.5em;
+    font-size: 100%;
 }
 .title {
-    font-size: 2.5em;
+    font-size: 1.8em;
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
 }
 .subtitle {
-    font-size: 1.2em;
+    font-size: 100%;
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 .pointer {
     cursor: pointer;
@@ -152,20 +175,20 @@ p {
     padding: 5px 25px;
 }
 .menu-items > li:hover {
-    background-color: var(--hoverBGColor) !important;
+    background-color: var(--redHoverColor) !important;
     border-radius: 3px;
 }
 .search-input {
     width: 175px;
     padding: 5px;
-    border: 1px solid var(--navBorderColor);
+    border: 1px solid var(--redBorderColor);
     border-radius: 5px;
 }
 .search-input:hover {
-    border: 1px solid var(--primaryBorderColor);
+    border: 1px solid var(--redBorderColor);
 }
 .search-inpt:focus {
-    border: 1px solid var(--primaryBorderColor);
+    border: 1px solid var(--redBorderColor);
 }
 .site-logo {
     padding: 5px 15px;
@@ -218,6 +241,53 @@ p {
     outline: 15px dashed rgba(136, 117, 117, 0.2);        
     outline-offset: 0.4em;
     font-size: 1.8em;
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+.features__left {
+    flex: .2;
+    min-height: 100vh;
+    background-color: #eee;
+    border: 1px solid #eee;
+    color: #000000;
+    padding: 10px 15px;
+}
+.features__right {
+    flex: .8;
+    padding: 10px 50px;
+}
+.features * ul {
+    line-height: 3.0em;
+    cursor: pointer;
+    padding: 0px;
+}
+.features * li:hover {
+    color:rgb(9, 145, 187)
+}
+.features__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+}
+.butt-label, .label-label, .typo-label {
+    background-color: #eee;
+    width: fit-content;
+    padding: 0px 7px;
+    border-radius: 5px;
+    color:rgb(63, 63, 63);
+    font-size: 0.8em;
+}
+@media screen and (max-width: 600px) {
+    .features__right {
+        padding: 5px 10px;
+    }
+    .features__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2em;
+    }    
 }
 @media screen and (min-width: 600px) {
     .hide-on-desktop {
@@ -310,49 +380,139 @@ p {
     width: 175px;
     opacity: 1;
 }
-/* Typography colors */
-.blue {
-    color: var(--blueColor);
+
+/* HTML elements starts here */
+
+/* Button Styles */
+button {
+    width: fit-content;
+    padding: 6px 12px;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 1.4em;
+    cursor: pointer;
+    margin: 0px;
 }
-.black {
-    color: var(--blackColor);
+button:hover {
+    opacity: 0.6;
 }
-.red {
-    color: var(--redColor);
-}
-.green {
-    color: var(--greenColor);
-}
-/* .orange {
-    color: #ccc !important;
-}
-.pink {
-    color: #ccc !important;
-}
-.lbrown {
-    color: #ccc !important;
-} */
-.label-black {width: fit-content;
+.butt-black {
     background-color: var(--blackColor);
     color: var(--whiteColor);
-    padding: 3px 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid var(--blackBorderColor);
 }
+.butt-grey {
+    background-color: var(--greyColor);
+    color: var(--blackColor);
+    border: 1px solid var(--greyBorderColor);
+}
+.butt-blue {
+    background-color: var(--blueColor);
+    color: var(--whiteColor);
+    border: 1px solid var(--blueBorderColor);
+}
+.butt-red {
+    background-color: var(--redColor);
+    color: var(--whiteColor);
+    border: 1px solid var(--redBorderColor);
+}
+.butt-green {
+    background-color: var(--greenColor);
+    color: var(--whiteColor);
+    border: 1px solid var(--greenBorderColor);
+}
+.butt-orange {
+    background-color: var(--orangeColor);
+    color: var(--whiteColor);
+    border: 1px solid var(--orangeBorderColor);
+}
+.butt-pink {
+    background-color: var(--pinkColor);
+    color: var(--whiteColor);
+    border: 1px solid var(--pinkBorderColor);
+}
+.butt-purple {
+    background-color: var(--purpleColor);
+    color: var(--whiteColor);
+    border: 1px solid var(--purpleBorderColor);
+}
+.butt-lbrown {
+    background-color: var(--lbrownColor);
+    color: #36301d;
+    border: 1px solid var(--lbrownBorderColor);
+}
+.butt-outline {
+    background-color: var(--outlineColor);
+    color: var(--blackColor);
+    border: 1px solid var(--outlineBorderColor);
+}
+label {
+    width: fit-content;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 1.4em;
+    cursor: pointer;
+    margin: 0px;
+}
+label:hover {
+    opacity: 0.6;
+}
+
+/* Label Styles */
+.label-blue {
+    background-color: var(--blueColor);
+    color: var(--whiteColor);
+    border: 1px solid var(--blueBorderColor);
+}
+.label-red {
+    background-color: var(--redColor);
+    color: var(--whiteColor);
+    border: 1px solid var(--redBorderColor);
+}
+.label-green {
+    background-color: var(--greenColor);
+    color: var(--whiteColor);
+    border: 1px solid var(--greenBorderColor);
+}
+.label-orange {
+    background-color: var(--orangeColor);
+    color: var(--whiteColor);
+    border: 1px solid var(--orangeBorderColor);
+}
+.label-pink {
+    background-color: var(--pinkColor);
+    color: var(--whiteColor);
+    border: 1px solid var(--pinkBorderColor);
+}
+.label-purple {
+    background-color: var(--purpleColor);
+    color: var(--whiteColor);
+    border: 1px solid var(--purpleBorderColor);
+}
+.label-lbrown {
+    background-color: var(--lbrownColor);
+    color: #36301d;
+    border: 1px solid var(--lbrownBorderColor);
+}
+.label-black {
+    background-color: var(--blackColor);
+    color: var(--whiteColor);
+    border: 1px solid var(--blackBorderColor);
+}
+.label-outline {
+    background-color: var(--outlineColor);
+    color: var(--blackColor);
+    border: 1px solid var(--outlineBorderColor);
+}
+
+/* Pear shaped Label styles */
 .label-black-pear {width: fit-content;
     background-color: var(--blackColor);
     color: var(--whiteColor);
     padding: 10px 15px;
     border: 1px solid #ccc;
     border-radius: 50%;
-}
-.label-red {width: fit-content;
-    background-color: var(--redColor);
-    color: var(--whiteColor);
-    padding: 1px 7px;
-    margin: 0px 5px 0px 0px;
-    border: 1px solid rgb(241, 104, 104);
-    border-radius: 3px;
 }
 .label-red-pear {width: fit-content;
     background-color: var(--redColor);
@@ -361,17 +521,103 @@ p {
     border: 1px solid rgb(241, 104, 104);
     border-radius: 50%;
 }
+
+/* Backgrounds */
+.bg-black {
+    background-color: var(--blackColor);
+}
+.bg-blue {
+    background-color: var(--blueColor);
+}
+.bg-red {
+    background-color: var(--redColor);
+}
+.bg-green {
+    background-color: var(--greenColor);
+}
+.bg-orange {
+    background-color: var(--orangeColor);
+}
+.bg-pink {
+    background-color: var(--pinkColor);
+}
+.bg-purple {
+    background-color: var(--purpleColor);
+}
+.bg-lbrown {
+    background-color: #ac7103;
+}
+.bg-grey {
+    background-color: var(--greyColor) !important;
+}
 .bg-dark {
     background-color: var(--blackColor);
 }
 .bg-site {
-    background-image: url('../img/header_bg2.jpg');
+    background-color: rgb(0, 40, 170);
+    /* background-image: url('../img/radient_backg01.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
 }
 .bg-pale {
     background-color: #ccc !important;
 }
+
+/* Border colors */
+.bd-black {
+    border: 1px solid var(--blackColor) !important;
+}
+.bd-blue {
+    border: 1px solid var(--blueColor) !important;
+}
+.bd-red {
+    border: 1px solid var(--redColor) !important;
+}
+.bd-green {
+    border: 1px solid var(--greenColor) !important;
+}
+.bd-orange {
+    border: 1px solid var(--orangeColor) !important;
+}
+.bd-pink {
+    border: 1px solid var(--pinkColor) !important;
+}
+.bd-purple {
+    border: 1px solid var(--purpleColor) !important;
+}
+.bd-lbrown {
+    border: 1px solid var(--lbrownColor) !important;
+}
+.bd-grey {
+    border: 1px solid var(--greyColor) !important;
+}
+
+/* Typography colors */
+.black {
+    color: var(--blackColor);
+}
+.blue {
+    color: var(--blueColor);
+}
+.red {
+    color: var(--redColor);
+}
+.green {
+    color: var(--greenColor);
+}
+.orange {
+    color: var(--orangeColor);
+}
+.pink {
+    color: var(--pinkColor);
+}
+.purple {
+    color: var(--purpleColor);
+}
+.lbrown {
+    color: #ac7103;
+}
+
 .pages {
     max-width: 90%;
     margin: 5px auto;
@@ -400,20 +646,6 @@ p {
 .contact-input > textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-button {
-    max-width: 100px;
-    padding: 10px 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: var(--navBGColor);
-    color: var(--whiteColor);
-    font-size: 16px;
-    font-weight: bold;
-}
-button:hover {
-    background-color: var(--navBGColorBlur);
-    color: #eee;
 }
 @media screen and (max-width: 600px) {
     .contact-input {
@@ -526,4 +758,73 @@ hr {
     width: 100%;
     padding-bottom: 10px;
     background-color: var(--whiteColor)
+}
+
+/* Decorations */
+.bold {
+    font-weight: bold;
+}
+.center {
+    text-align: center;
+}
+.go-left {
+    text-align: left;
+}
+.go-right {
+    text-align: right;
+}
+.center-vw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-50 {
+    width: 50px;
+    height: 50px;
+}
+.box-200 {
+    width: 200px;
+    height: 200px;
+}
+.box-300 {
+    width: 300px;
+    height: 300px;
+}
+.box-600 {
+    width: 600px;
+    height: 600px;
+}
+.circle-50 {
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+}
+.circle-200 {
+    width: 200px;
+    height: 200px;
+    border-radius: 999px;
+}
+.circle-300 {
+    width: 300px;
+    height: 300px;
+    border-radius: 999px;
+}
+.circle-600 {
+    width: 600px;
+    height: 600px;
+    border-radius: 999px;
+}
+
+/* Text */
+.tx-small {
+    font-size: 0.8em;
+}
+.tx-medium {
+    font-size: 1.2em;
+}
+.tx-large {
+    font-size: 2.0em;
+}
+.tx-xlarge {
+    font-size: 4.0em;
 }

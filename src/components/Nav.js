@@ -16,7 +16,7 @@ function Nav() {
     useEffect(() => {
         // If current path is root('/'), remove NAV background
         if (location.pathname !== "/") {
-            setNavStyle("navbar bg-site")
+            setNavStyle("navbar bg-red")
         } else {
             setNavStyle("navbar")
         }
@@ -41,6 +41,9 @@ function Nav() {
                 <ul id="menuitems" className="menu-items hide-on-mobile">
                     <li>
                         <Link to="/about" className="menu-item">About</Link>
+                    </li>
+                    <li>
+                        <Link to="/features" className="menu-item">Features</Link>
                     </li>
                     <li>
                         <Link to="/services" className="menu-item">Services</Link>

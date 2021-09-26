@@ -25,7 +25,7 @@ function Contact() {
                             <textarea name="message" id="" cols="30" rows="10"></textarea>
                         </div>
                         <div className="contact-input">
-                            <button>Submit</button>
+                            <button className="butt-blue">Submit</button>
                         </div>
                     </form>
                 </div>
