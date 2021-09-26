@@ -63,6 +63,13 @@ Just clone the repository and run `npm start` to download the modules in the
 
 ## Credits
 
+**create-react-app**
+
+The basic starting template for this project is from teh create-react-app basic app
+I decided this was the best way to build on it as most people already are
+familiar with this pattern and structure and there is no need to reinvent the
+wheel for something that works.
+
 **Author**: *Edwin Okugbo*
 
 **Images**: *http://www.pexels.com*
