@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700&display=swap');
 :root {
     --whiteColor: #fff;
-    --blueColor: rgb(0, 86, 199);
     --blackColor: #000;
+    --blueColor: rgb(0, 86, 199);
+    --redColor: rgb(204, 21, 21);
+    --greenColor: #000;
+    --orangeColor: #000;
+    --pinkColor: #000;
+    --lbrownColor: #000;
     --lightBGColor: rgb(233, 226, 216);
     --bgColor: rgb(223,212,195);
     --mdbgColor: rgb(199, 166, 118);
@@ -19,7 +24,7 @@ body {
     color: var(--primaryFontColor);
     box-sizing: border-box;
     background-color: var(--whiteColor);    
-    font-family: Roboto, Georgia, 'Times New Roman', Times, serif
+    font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
 }
 .header {
     height: 100vh;
@@ -117,6 +122,15 @@ a {
     color: var(--whiteColor);
     font-weight: 400;
     text-decoration: none;
+}
+p {
+    line-height: 2.0em;
+}
+.title {
+    font-size: 2.5em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
 }
 .subtitle {
     font-size: 1.2em;
@@ -296,6 +310,57 @@ a {
     width: 175px;
     opacity: 1;
 }
+/* Typography colors */
+.blue {
+    color: var(--blueColor);
+}
+.black {
+    color: var(--blackColor);
+}
+.red {
+    color: var(--redColor);
+}
+.green {
+    color: var(--greenColor);
+}
+/* .orange {
+    color: #ccc !important;
+}
+.pink {
+    color: #ccc !important;
+}
+.lbrown {
+    color: #ccc !important;
+} */
+.label-black {width: fit-content;
+    background-color: var(--blackColor);
+    color: var(--whiteColor);
+    padding: 3px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.label-black-pear {width: fit-content;
+    background-color: var(--blackColor);
+    color: var(--whiteColor);
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+.label-red {width: fit-content;
+    background-color: var(--redColor);
+    color: var(--whiteColor);
+    padding: 1px 7px;
+    margin: 0px 5px 0px 0px;
+    border: 1px solid rgb(241, 104, 104);
+    border-radius: 3px;
+}
+.label-red-pear {width: fit-content;
+    background-color: var(--redColor);
+    color: var(--whiteColor);
+    padding: 10px 15px;
+    border: 1px solid rgb(241, 104, 104);
+    border-radius: 50%;
+}
 .bg-dark {
     background-color: var(--blackColor);
 }
@@ -415,6 +480,9 @@ button:hover {
 }
 .right__sidebar > hr {
     width: 100%;
+}
+hr {
+    border: 1px solid rgb(196, 192, 192, .3) !important;
 }
 .right__sidebar > .highlight__rule {
     width: 30%;
