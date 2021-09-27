@@ -763,7 +763,7 @@ label:hover {
 .post > img {
     width: 100%;
     max-width: 100%;
-    border: 1px solid rgb(119, 119, 119);
+    border: 1px solid rgb(202, 202, 202);
     border-radius: 3px;
 }
 .contact__page {
