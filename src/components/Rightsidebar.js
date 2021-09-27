@@ -12,31 +12,31 @@ function Rightsidebar() {
         <hr />
         <div className="recent__posts">
             <img src={recentImg01} alt="" /> 
-            <h4 className="title">Marvel Realeases What If Episode 7</h4>
+            <h4 className="subtitle">Marvel Realeases What If Episode 7</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
         </div>
         <hr className="highlight__rule" />
         <div className="recent__posts">
             <img src={recentImg02} alt="" /> 
-            <h4 className="title">Marvel Realeases What If Episode 7</h4>
+            <h4 className="subtitle">Marvel Realeases What If Episode 7</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
         </div>
         <hr className="highlight__rule" />
         <div className="recent__posts">
             <img src={recentImg03} alt="" /> 
-            <h4 className="title">Marvel Realeases What If Episode 7</h4>
+            <h4 className="subtitle">Marvel Realeases What If Episode 7</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
         </div>
         <hr className="highlight__rule" />
         <div className="recent__posts">
             <img src={recentImg04} alt="" /> 
-            <h4 className="title">Marvel Realeases What If Episode 7</h4>
+            <h4 className="subtitle">Marvel Realeases What If Episode 7</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
         </div>
         <hr className="highlight__rule" />
         <div className="recent__posts">
             <img src={recentImg05} alt="" /> 
-            <h4 className="title">Marvel Realeases What If Episode 7</h4>
+            <h4 className="subtitle">Marvel Realeases What If Episode 7</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
         </div>
     </div>

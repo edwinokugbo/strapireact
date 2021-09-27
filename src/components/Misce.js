@@ -126,6 +126,21 @@ function Misce() {
                 <p className="misce-label">circle-600 bg-lbrown center-vw</p>
                 <p className="circle-600 bg-lbrown center-vw white">Div Circle 600x600</p>
             </div>
+        <p className="subtitle">Transparent Classes</p>
+        <div className="features__grid bg-lgrey padding-15 rnd-3">
+            <div className="misce-box">
+                <p className="misce-label">tr-2 box-200 bg-blue center-vw</p>
+                <p className="tr-2 box-200 center-vw bg-blue white">Transparent Box</p>
+            </div>
+            <div className="misce-box">
+                <p className="misce-label">tr-5 box-200 bg-blue center-vw yellow subtitle rnd-10</p>
+                <p className="tr-5 box-200 center-vw bg-blue yellow subtitle rnd-10">Transparent Box</p>
+            </div>
+            <div className="misce-box">
+                <p className="misce-label">tr-5 box-200 bg-blue center-vw white rnd-full</p>
+                <p className="tr-8 box-200 center-vw bg-blue white rnd-full">Transparent Box</p>
+            </div>
+        </div>
 
     </div>
     )

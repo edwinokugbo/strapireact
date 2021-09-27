@@ -17,6 +17,9 @@
     --greenColor: #29b416;
     --greenBorderColor: rgb(41, 141, 11);
     --greenHoverColor: 	rgb(41, 141, 11, .4);
+    --yellowColor: 	rgb(255, 255, 0);
+    --yellowBorderColor: rgb(209, 209, 0);
+    --yellowHoverColor: rgb(255, 255, 0, .4);
     --orangeColor: 	rgb(233, 135, 6);
     --orangeBorderColor: rgb(246, 145, 16);
     --orangeHoverColor:	rgb(246, 145, 16, .4);
@@ -154,7 +157,7 @@ hr {
     border: 1px solid rgb(196, 192, 192, .3) !important;
 }
 .title {
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
@@ -616,6 +619,9 @@ label:hover {
 .red {
     color: var(--redColor);
 }
+.yellow {
+    color: var(--yellowColor);
+}
 .green {
     color: var(--greenColor);
 }
@@ -646,8 +652,8 @@ label:hover {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    width: 100%;
-    max-width: 100%;
+    width: 90%;
+    max-width: 90%;
 }
 .contact-input > * {
     margin-bottom: 10px;
@@ -700,6 +706,7 @@ label:hover {
 .contact__box {
     flex: 3;
     display: flex;
+    margin-bottom: 20px;
 }
 .contact__box > form {
     width: 95%;
@@ -847,4 +854,46 @@ label:hover {
 }
 .tx-xlarge {
     font-size: 4.0em;
+}
+
+/* Transparent elements */
+.tr-2 {
+    opacity: .2;
+}
+.tr-5 {
+    opacity: .5;
+}
+.tr-8 {
+    opacity: .8;
+}
+
+/* Rounded Corner Classes */
+.rnd-3 {
+    border-radius: 3px;
+}
+.rnd-5 {
+    border-radius: 5px;
+}
+.rnd-10 {
+    border-radius: 10px;
+}
+.rnd-full {
+    border-radius: 999px;
+}
+
+/* Percentage widths */
+.width-25 {
+    width: 25% !important;
+}
+.width-30 {
+    width: 30% !important;
+}
+.width-50 {
+    width: 50% !important;
+}
+.width-90 {
+    width: 90% !important;
+}
+.width-100 {
+    width: 100% !important;
 }

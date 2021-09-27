@@ -12,6 +12,7 @@ function Contact() {
             <div className="contact__page">
                 <div className="contact__box">
                     <form action="/contact.html" method="POST">
+                        <div className="bg-white bd-grey padding-10 rnd-5 shadow width-100">
                         <div className="contact-input">
                             <label for="name">Name</label>
                             <input type="text" name="name" />
@@ -26,6 +27,7 @@ function Contact() {
                         </div>
                         <div className="contact-input">
                             <button className="butt-blue">Submit</button>
+                        </div>
                         </div>
                     </form>
                 </div>

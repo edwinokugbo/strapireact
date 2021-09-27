@@ -10,7 +10,7 @@ function Blog() {
         <div className="pages">
             <div className="pages__header">
                 <h1>Edwin's Blog</h1>
-                <hr />
+                <hr className="bd-lgrey" />
             </div>
             <div className="blog__page">
                 <div className="blog">
