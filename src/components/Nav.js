@@ -1,7 +1,7 @@
 // Navigation component. Contains top navigation links
 import React, { useState, useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
-import logo from '../img/quickstart.png'
+import logo from '../img/logo.png'
 import searchIcon from '../icons/loupe_white.svg'
 import harmburger from '../icons/icons8-menu.svg'
 import userImg from '../img/user.png'
@@ -16,7 +16,13 @@ function Nav() {
     useEffect(() => {
         // If current path is root('/'), remove NAV background
         if (location.pathname !== "/") {
-            setNavStyle("navbar bg-red")
+            // You can use the navbar color classes to determine the color scheme of your navbar
+            // This would normally match the app color scheme. The following classes can be used
+            // navbar__black, navbar__blue, navbar__red, navbar__yellow, navbar__green,
+            // navbar__orange, navbar__pink, navbar__purple, navbar__lbrown
+            // You can change the shade of the colors by changing the color variable values
+            // in css/style.css
+            setNavStyle("navbar navbar__blue")
         } else {
             setNavStyle("navbar")
         }
@@ -32,7 +38,7 @@ function Nav() {
         <div className={navStyle}>
             <div className="navbar__left">
                 <Link to="/" className="navbar__left--homelink">
-                    <img height="35" width="auto" src={logo} alt="" className="site-logo" />
+                    <img height="60" width="auto" src={logo} alt="" className="site-logo" />
                     <h3 className="site-title">Strapilicious</h3>
                 </Link>
                 <img id="harmburger" className="hide-on-desktop" height="50" width="auto" src={harmburger} alt="" />
