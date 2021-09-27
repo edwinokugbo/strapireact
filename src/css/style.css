@@ -6,6 +6,8 @@
     --blackHoverColor: 	rgb(0, 0, 0, .4);
     --greyColor: #ccc;
     --greyBorderColor: #acacac;
+    --lgreyColor: #eee;
+    --lgreyBorderColor: #d1d1d1;
     --blueColor: rgb(0, 86, 199);
     --blueBorderColor: rgb(24, 111, 151);
     --blueHoverColor: rgb(24, 111, 151, .4);
@@ -526,6 +528,9 @@ label:hover {
 }
 
 /* Backgrounds */
+.bg-white {
+    background-color: var(--whiteColor);
+}
 .bg-black {
     background-color: var(--blackColor);
 }
@@ -552,6 +557,9 @@ label:hover {
 }
 .bg-grey {
     background-color: var(--greyColor) !important;
+}
+.bg-lgrey {
+    background-color: var(--lgreyColor) !important;
 }
 .bg-dark {
     background-color: var(--blackColor);
@@ -593,6 +601,9 @@ label:hover {
 }
 .bd-grey {
     border: 1px solid var(--greyColor) !important;
+}
+.bd-lgrey {
+    border: 1px solid var(--lgreyColor) !important;
 }
 
 /* Typography colors */
@@ -768,7 +779,13 @@ label:hover {
     text-align: center;
 }
 .shadow {
-    box-shadow: 2px 2px 2px 2px #888888;
+    box-shadow: rgb(0 0 0 / 15%) 0px 1px 1px;
+}
+.padding-10 {
+    padding: 10px;
+}
+.padding-15 {
+    padding: 15px;
 }
 .go-left {
     text-align: left;

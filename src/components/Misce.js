@@ -8,7 +8,7 @@ function Misce() {
             <p>Strapilicious provides the following extra classes</p>
         </div>
         <p className="subtitle">Borders</p>
-        <div className="features__grid">
+        <div className="features__grid bg-lgrey padding-15">
             <div className="misce-box">
                 <p className="misce-label">bd-black</p>
                 <p className="bd-black" /> 
@@ -88,14 +88,14 @@ function Misce() {
         </div>
         <hr />
         <p className="subtitle">Boxes</p>
-        <div className="features__grid">
+        <div className="features__grid bg-lgrey padding-15">
             <div className="misce-box">
                 <p className="misce-label">box-50 bg-purple</p>
                 <p className="box-50 bg-purple"></p>
             </div>
             <div className="misce-box">
-                <p className="misce-label">box-200 bg-black center-vw</p>
-                <p className="box-200 bg-black center-vw white">Div Box 200x200</p>
+                <p className="misce-label">box-200 bg-white bd-lgrey center-vw black shadow</p>
+                <p className="box-200 bg-white bd-lgrey center-vw black bold shadow">Div Box 200x200</p>
             </div>
             <div className="misce-box">
                 <p className="misce-label">box-300 bg-red center-vw shadow</p>
